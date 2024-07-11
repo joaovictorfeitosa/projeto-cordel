@@ -15,6 +15,7 @@
 body, html{
     font-family: var(--fonte-corpo);
     border: 1px solid black;
+    max-width: 100vh;
     min-height: 100vh;
 }
 
@@ -62,13 +63,13 @@ pre{
 #img2{
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+   
 }
 section.imagem{
     box-shadow: inset 5px 5px 13px black;
     background-color: rgba(0, 0, 0, 0.367);
-    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 section.imagem > pre{
@@ -81,8 +82,7 @@ section.imagem > pre{
 #img5{
     background-image: url(../imagens/background002.jpg);
     background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
+  
 }
 section{
     padding-top: 10vh;
