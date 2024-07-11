@@ -62,13 +62,13 @@ pre{
 #img2{
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
-    
+    background-size: cover;
+    background-attachment: fixed;
 }
 section.imagem{
     box-shadow: inset 5px 5px 13px black;
     background-color: rgba(0, 0, 0, 0.367);
-    background-size: cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     
 }
 section.imagem > pre{
@@ -81,7 +81,8 @@ section.imagem > pre{
 #img5{
     background-image: url(../imagens/background002.jpg);
     background-position: right center;
-   
+    background-size: cover;
+    background-attachment: fixed;
 }
 section{
     padding-top: 10vh;
