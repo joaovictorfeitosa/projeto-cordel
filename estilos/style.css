@@ -15,7 +15,7 @@
 body, html{
     font-family: var(--fonte-corpo);
     border: 1px solid black;
-    
+    min-height: 100vh;
 }
 
 header{
@@ -50,14 +50,12 @@ header > p{
     text-align: center;
     font-size: 1.9vw;
 }
-p{
-    padding-top: 10px;
-    text-align: left;
-}
+
 pre{
     font-family: var(--fonte-corpo);
     white-space: pre-line; /* Remove os espaços e gruda na borda*/
     padding-left: 10px;
+    padding-bottom: 2em;
 }
 #img2{
     background-image: url(../imagens/background001.jpg);
@@ -90,9 +88,7 @@ section{
     padding-left: 30px;
     font-size: 2.5vw;
 }
-section > p{
-    padding-bottom: 2em;
-}
+
 footer{
     background-color: black;
     color: rgb(255, 255, 255);
